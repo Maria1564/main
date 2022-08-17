@@ -1,0 +1,61 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* font-family: 'Work Sans', sans-serif; */
+/* font-family: 'Gilroy', sans-serif; */
+
+body{
+    font-family: 'Gilroy', sans-serif; 
+    font-weight: 500;
+    
+}
+
+
+.container {
+    max-width: 1750px;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 800;
+    color: #114455;
+    border: 1px solid #114455;
+    border-radius: 2px;
+    padding: 10px 24px;
+    display:inline-block; 
+}
+
+/* header */
+.header {
+    min-height: 100vh;  /*100vh - высота видимой части экрана*/
+    background-color: #E1EDF2;
+    background-image: url(./../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.header__top {
+    padding: 44px 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 118px; 
+}
+
+.link {
+    font-size: 20px;
+    font-weight: 800;
+    color: #114455;
+}
+
